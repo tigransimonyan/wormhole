@@ -13,8 +13,8 @@
     <head>
         <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 <!-- THREE.JS  -->
-<script src='/three.min.js'></script>
-<script src='/ObjetoCanvas.js'></script></script>
+<script src='/wormhole/three.min.js'></script>
+<script src='/wormhole/ObjetoCanvas.js'></script></script>
 
 	
 	<style>
@@ -101,10 +101,10 @@ Banner_WormHole.prototype = Object.assign( Object.create(ObjetoCanvas.prototype)
         };
         var Cargador = new THREE.TextureLoader();
         Cargador.crossOrigin = "";
-        Cargador.load('/Banner_WormHole11.jpg', this.TexturaCargada.bind(this, 0) );    
+        Cargador.load('/wormhole/Banner_WormHole11.jpg', this.TexturaCargada.bind(this, 0) );    
         var Cargador2 = new THREE.TextureLoader();
         Cargador2.crossOrigin = "";
-        Cargador2.load('/Banner_WormHole1.2.jpg', this.TexturaCargada.bind(this, 1) );
+        Cargador2.load('/wormhole/Banner_WormHole1.2.jpg', this.TexturaCargada.bind(this, 1) );
 
         this.Camara.lookAt(this.Escena.position);    
     },
